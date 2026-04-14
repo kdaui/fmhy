@@ -1,0 +1,93 @@
+:root {
+  --vp-c-brand: #3D6299;
+  --vp-c-brand-1: #5E8ABF;
+  --vp-c-brand-2: #2A3F5F;
+  --vp-c-brand-3: #1c2333;
+  --vp-c-bg: #1c2333;
+  --vp-c-bg-alt: #0d1117;
+  --vp-c-bg-soft: #161b22;
+  --vp-c-bg-elv: #21262d;
+  --vp-c-text-1: #B8C5D6;
+  --vp-c-text-2: #8b949e;
+  --vp-c-text-3: #6e7681;
+  --vp-c-border: #30363d;
+  --vp-c-divider: #21262d;
+  --vp-font-family-base: 'Share Tech Mono', monospace;
+  --vp-font-family-mono: 'VT323', monospace;
+}
+
+.dark {
+  --vp-c-brand: #3D6299;
+  --vp-c-brand-1: #5E8ABF;
+  --vp-c-brand-2: #2A3F5F;
+}
+
+html {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+body {
+  background-color: #0d1117;
+  color: #B8C5D6;
+}
+
+.VPNavBar {
+  background: rgba(28, 35, 51, 0.95) !important;
+  backdrop-filter: blur(10px);
+}
+
+.VPSidebar {
+  background: #0d1117 !important;
+  border-right: 1px solid #30363d;
+}
+
+.VPSidebarItem.is-active .text {
+  color: #3D6299 !important;
+}
+
+.VPButton.brand {
+  background-color: #3D6299 !important;
+  border-color: #3D6299 !important;
+}
+
+.VPButton.brand:hover {
+  background-color: #5E8ABF !important;
+  border-color: #5E8ABF !important;
+}
+
+.VPLink.link:hover {
+  color: #5E8ABF !important;
+}
+
+a {
+  color: #5E8ABF;
+}
+
+a:hover {
+  color: #3D6299;
+}
+
+.vp-doc h1, .vp-doc h2, .vp-doc h3, .vp-doc h4, .vp-doc h5, .vp-doc h6 {
+  color: #B8C5D6;
+}
+
+.VPContent.has-sidebar .content-container {
+  background: #0d1117;
+}
+
+.VPDoc .container {
+  max-width: 1400px;
+}
+
+.VPFeature {
+  border: 1px solid #30363d !important;
+  background: #161b22 !important;
+}
+
+.VPFeature:hover {
+  border-color: #3D6299 !important;
+}
+
+.VPNavBarTitle .title {
+  font-family: 'Share Tech Mono', monospace;
+}
