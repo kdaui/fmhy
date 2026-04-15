@@ -130,7 +130,7 @@ export default defineConfig({
       }),
       UnoCSS({
         configFile: fileURLToPath(
-          new URL('../../unocss.config.ts', import.meta.url)
+          new URL('../unocss.config.ts', import.meta.url)
         )
       }),
       AutoImport({
