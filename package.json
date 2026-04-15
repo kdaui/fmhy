@@ -12,9 +12,9 @@
     "api:prepare": "nitropack prepare",
     "api:preview": "node .output/server/index.mjs",
     "api:typegen": "wrangler types api/worker-configuration.d.ts",
-    "docs:build": "vitepress build docs/",
-    "docs:dev": "vitepress dev docs/",
-    "docs:preview": "vitepress preview docs/",
+    "docs:build": "vitepress build .",
+    "docs:dev": "vitepress dev .",
+    "docs:preview": "vitepress preview .",
     "format": "prettier -w --cache --check .",
     "licenser": "deno run --allow-read jsr:@kt3k/license-checker@3.3.1/main",
     "og:dev": "x-satori -t ./docs/.vitepress/hooks/Template.vue -c ./docs/.vitepress/hooks/satoriConfig.ts --dev"
