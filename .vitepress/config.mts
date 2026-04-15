@@ -24,7 +24,7 @@ import { replaceNoteLink } from './utils/markdown'
 
 // @unocss-include
 
-const baseUrl = '/fmhy/'
+const baseUrl = '/'
 export default defineConfig({
   title: 'FMHY',
   description: meta.description,
