@@ -40,8 +40,7 @@ export default defineConfig({
     hostname: meta.hostname
   },
   head: [
-    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap' }],
-    ['meta', { name: 'theme-color', content: '#3D6299' }],
+    ['meta', { name: 'theme-color', content: '#7bc5e4' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:locale', content: 'en' }],
     ['link', { rel: 'icon', href: '/test.png' }],
