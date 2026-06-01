@@ -24,7 +24,7 @@ import { replaceNoteLink } from './utils/markdown'
 
 // @unocss-include
 
-const baseUrl = process.env.GITHUB_ACTIONS ? '/edit' : '/'
+const baseUrl = '/fmhy/'
 export default defineConfig({
   title: 'FMHY',
   description: meta.description,
