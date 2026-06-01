@@ -50,7 +50,7 @@ export default defineConfig({
         rel: 'alternate',
         type: 'application/rss+xml',
         title: 'FMHY RSS Feed',
-        href: '/feed.rss'
+        href: '/fmhy/feed.rss'
       }
     ],
     // PWA
