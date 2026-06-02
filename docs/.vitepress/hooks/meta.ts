@@ -16,14 +16,15 @@
 
 import type { HeadConfig, TransformContext } from 'vitepress'
 
-export function generateMeta(context: TransformContext, hostname: string) {
+export function generateMeta(context: TransformContext, hostname: string, base: string = '') {
   const head: HeadConfig[] = []
   const { pageData } = context
 
   if (pageData.isNotFound) return head
   if (Object.keys(pageData.frontmatter).length === 0) return head
 
-  const url = `${hostname}/${pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2')}`
+  const path = pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2')
+  const url = `${hostname}${base}${path}`
 
   head.push(
     ['link', { rel: 'canonical', href: url }],
@@ -58,14 +59,14 @@ export function generateMeta(context: TransformContext, hostname: string) {
       'meta',
       {
         property: 'og:image',
-        content: `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`
+        content: `${hostname}${base}${pageData.frontmatter.image.replace(/^\//, '')}`
       }
     ])
     head.push([
       'meta',
       {
         name: 'twitter:image',
-        content: `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`
+        content: `${hostname}${base}${pageData.frontmatter.image.replace(/^\//, '')}`
       }
     ])
   } else {
@@ -75,7 +76,7 @@ export function generateMeta(context: TransformContext, hostname: string) {
       .replace(/^\//, '')
 
     head.push(
-      ['meta', { property: 'og:image', content: `${hostname}/${imageUrl}` }],
+      ['meta', { property: 'og:image', content: `${hostname}${base}${imageUrl}` }],
       ['meta', { property: 'og:image:width', content: '1200' }],
       ['meta', { property: 'og:image:height', content: '630' }],
       ['meta', { property: 'og:image:type', content: 'image/png' }],
@@ -83,7 +84,7 @@ export function generateMeta(context: TransformContext, hostname: string) {
         'meta',
         { property: 'og:image:alt', content: pageData.frontmatter.title }
       ],
-      ['meta', { name: 'twitter:image', content: `${hostname}/${imageUrl}` }],
+      ['meta', { name: 'twitter:image', content: `${hostname}${base}${imageUrl}` }],
       ['meta', { name: 'twitter:image:width', content: '1200' }],
       ['meta', { name: 'twitter:image:height', content: '630' }],
       [

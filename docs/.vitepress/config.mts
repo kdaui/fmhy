@@ -141,7 +141,7 @@ export default defineConfig({
         `
     ]
   ],
-  transformHead: async (context) => generateMeta(context, meta.hostname),
+  transformHead: async (context) => generateMeta(context, meta.hostname, baseUrl),
   buildEnd: async (context) => {
     try {
       await generateImages(context)
@@ -231,8 +231,8 @@ export default defineConfig({
           background_color: '#000000ff',
           display: 'standalone',
           orientation: 'portrait',
-          scope: '/',
-          start_url: '/',
+          scope: baseUrl,
+          start_url: baseUrl,
           icons: [
             {
               src: '/fmhy.ico',

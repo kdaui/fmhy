@@ -30,7 +30,7 @@ const formatDate = (raw: string): string => {
       <ul>
         <li v-for="post of posts[year]" :key="post.url">
           <article>
-            <a :href="post.url" class="border-none">{{ post.title }}</a>
+            <a :href="withBase(post.url)" class="border-none">{{ post.title }}</a>
             -
             <dl class="m-0 inline">
               <dt class="sr-only">Published on</dt>

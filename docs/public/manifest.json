@@ -6,8 +6,8 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/fmhy/",
+  "start_url": "/fmhy/",
   "icons": [
     {
       "src": "/fmhy.ico",

@@ -50,8 +50,8 @@ export async function generateFeed(config: SiteConfig): Promise<void> {
   for (const { url, frontmatter, html } of posts) {
     feed.addItem({
       title: frontmatter.title as string,
-      id: `${meta.hostname}${url.replace(/\/\d+\./, '/')}`,
-      link: `${meta.hostname}${url.replace(/\/\d+\./, '/')}`,
+      id: `${meta.hostname}${config.site.base}${url.replace(/\/\d+\./, '/')}`,
+      link: `${meta.hostname}${config.site.base}${url.replace(/\/\d+\./, '/')}`,
       date: frontmatter.date,
       content: html?.replaceAll('&ZeroWidthSpace;', '')
     })
