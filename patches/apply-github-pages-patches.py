@@ -130,6 +130,17 @@ text = text.replace(
 rss_ts.write_text(text, encoding="utf-8")
 print("  OK   hooks/rss.ts")
 
+# Fix feed favicon URL to include the base path
+rss_fix = ROOT / "docs/.vitepress/hooks/rss.ts"
+text = rss_fix.read_text(encoding="utf-8")
+if "favicon: `${meta.hostname}/favicon.ico`" in text:
+    text = text.replace(
+        "favicon: `${meta.hostname}/favicon.ico`",
+        f"favicon: `${{meta.hostname}}{BASE}favicon.ico`",
+    )
+    rss_fix.write_text(text, encoding="utf-8")
+    print("  ++  hooks/rss.ts feed favicon")
+
 # ---------------------------------------------------------------------------
 # 4. docs/.vitepress/theme/Posts.vue
 # ---------------------------------------------------------------------------
@@ -159,6 +170,12 @@ text = shared_ts.read_text(encoding="utf-8")
 text = text.replace(
     'href="/feedback"',
     f'href="{BASE}feedback"',
+)
+
+# Point canonical / OG / RSS / sitemap URLs at the deployed GitHub Pages site
+text = text.replace(
+    "hostname: 'https://fmhy.net'",
+    "hostname: 'https://kdaui.github.io'",
 )
 
 shared_ts.write_text(text, encoding="utf-8")
