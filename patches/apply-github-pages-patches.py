@@ -48,6 +48,28 @@ replace_in_file(
     f"href: '{BASE}feed.rss'",
 )
 
+print("  ++  config.mts — icon / manifest / touch-icon / logo paths")
+replace_in_file(
+    "docs/.vitepress/config.mts",
+    "href: '/fmhy.ico'",
+    f"href: '{BASE}fmhy.ico'",
+)
+replace_in_file(
+    "docs/.vitepress/config.mts",
+    "href: '/manifest.json'",
+    f"href: '{BASE}manifest.json'",
+)
+replace_in_file(
+    "docs/.vitepress/config.mts",
+    "href: '/pwa_icon.png'",
+    f"href: '{BASE}pwa_icon.png'",
+)
+replace_in_file(
+    "docs/.vitepress/config.mts",
+    "src: '/fmhy.ico'",
+    f"src: '{BASE}fmhy.ico'",
+)
+
 print("[3/7] config.mts — transformHead call")
 replace_in_file(
     "docs/.vitepress/config.mts",
@@ -141,6 +163,40 @@ text = text.replace(
 
 shared_ts.write_text(text, encoding="utf-8")
 print("  OK   shared.ts")
+
+# ---------------------------------------------------------------------------
+# 6b. docs/.vitepress/theme/index.ts — seasonal favicon paths
+# ---------------------------------------------------------------------------
+print("  BONUS theme/index.ts — seasonal favicon paths")
+theme_index_ts = ROOT / "docs/.vitepress/theme/index.ts"
+text = theme_index_ts.read_text(encoding="utf-8")
+
+text = text.replace(
+    "'/june_icon.webp'",
+    f"'{BASE}june_icon.webp'",
+)
+text = text.replace(
+    "'/fmhy.ico'",
+    f"'{BASE}fmhy.ico'",
+)
+
+theme_index_ts.write_text(text, encoding="utf-8")
+print("  OK   theme/index.ts")
+
+# ---------------------------------------------------------------------------
+# 6c. docs/.vitepress/theme/style.scss — June branding image
+# ---------------------------------------------------------------------------
+print("  BONUS theme/style.scss — June branding image")
+style_scss = ROOT / "docs/.vitepress/theme/style.scss"
+text = style_scss.read_text(encoding="utf-8")
+
+text = text.replace(
+    "url('/june_icon.webp')",
+    f"url('{BASE}june_icon.webp')",
+)
+
+style_scss.write_text(text, encoding="utf-8")
+print("  OK   theme/style.scss")
 
 # ---------------------------------------------------------------------------
 # 6. docs/public/manifest.json — PWA scope & start_url
