@@ -1,0 +1,70 @@
+name: Sync with upstream
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream https://github.com/fmhy/edit.git
+          git fetch upstream
+
+      - name: Check for updates
+        id: check
+        run: |
+          if git merge-base --is-ancestor upstream/main HEAD; then
+            echo "synced=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "synced=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Merge upstream
+        if: steps.check.outputs.synced == 'false'
+        id: merge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git merge upstream/main --no-edit --no-commit 2>&1; then
+            echo "conflict=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "conflict=true" >> "$GITHUB_OUTPUT"
+            git merge --abort
+          fi
+
+      - name: Push if clean
+        if: steps.check.outputs.synced == 'false' && steps.merge.outputs.conflict == 'false'
+        run: |
+          git commit --no-edit
+          git push origin main
+
+      - name: Create PR on conflict
+        if: steps.check.outputs.synced == 'false' && steps.merge.outputs.conflict == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "sync: merge upstream/fmhy main"
+          branch: auto-sync/upstream
+          delete-branch: true
+          title: "Auto-sync: merge upstream changes"
+          body: |
+            Upstream has new commits but there are merge conflicts.
+            Resolve conflicts then merge to deploy.
+          draft: false
