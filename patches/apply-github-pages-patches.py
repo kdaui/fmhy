@@ -26,7 +26,7 @@ def replace_in_file(relpath: str, old: str, new: str) -> None:
         print(f"  WARN: pattern not found in {relpath}, skipping")
         print(f"        looking for: {old!r}")
         return
-    text = text.replace(old, new, 1)
+    text = text.replace(old, new)
     p.write_text(text, encoding="utf-8")
     print(f"  OK   {relpath}")
 
