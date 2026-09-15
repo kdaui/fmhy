@@ -116,7 +116,7 @@
 
 * [Compress Video Online](https://compress-video-online.com/) - Compress / Unlimited
 * [8mb.video](https://8mb.video/) - Compress / 2GB / [Discord](https://discord.com/invite/UzmzPfX)
-* [autocompressor](https://autocompressor.net/) - Compress / 2GB
+* [autocompressor](https://autocompressor.net/) - Compress / 2GB / [BlueSky](https://bsky.app/profile/autocompressor.net) / [Discord](https://discord.com/invite/8afxgEpxH4)
 * [Rotato](https://tools.rotato.app/) - Compress / 2GB
 * [VideoSmaller](https://www.videosmaller.com/) - Compress / 500MB
 * [YouCompress](https://www.youcompress.com/) - Compress / 500MB
@@ -512,7 +512,7 @@
 * [Storyboarder](https://wonderunit.com/storyboarder/) - Quickly Visualize & Test Animations / [GitHub](https://github.com/wonderunit/storyboarder)
 * [LuxCoreRender](https://luxcorerender.org/) - Rendering Engine
 * [RenderChan](https://morevnaproject.org/renderchan/) - 2D Animation Render Manager
-* [Mandelbulber](https://mandelbulber.com/) or [FragM](https://github.com/3Dickulus/FragM) - Fractal Rendering Software / [3D](https://mb3d.overwhale.com/)
+* [Mandelbulber](https://mandelbulber.com/) / [GitHub](https://github.com/buddhi1980/mandelbulber2) or [FragM](https://github.com/3Dickulus/FragM) - Fractal Rendering Software / [3D](https://mb3d.overwhale.com/)
 * [JWildfire](https://jwildfire.overwhale.com/), [IFSRenderer](https://github.com/bezo97/IFSRenderer) or [Fractorium](http://fractorium.com/) - Flame Fractal Rendering Software
 * [BestSnip](https://bestsnip.com/animation/), [Sketch Machine](https://sketchmachine.net/), [Plask](https://plask.ai/) or [Rive](https://rive.app/) - Online Animation Tools
 * [Glaxnimate](https://glaxnimate.org/) or [Trangram](https://www.trangram.com/) - Vector Animation Tools
