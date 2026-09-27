@@ -41,16 +41,16 @@
 * ↪️ **[Password Privacy / 2FA](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_password_privacy_.2F_2fa)**
 * ⭐ **[KeePassXC](https://keepassxc.org/)** / [Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted) / [Resources](https://github.com/lgg/awesome-keepass) / Windows, macOS, Linux / [GitHub](https://github.com/keepassxreboot/keepassxc)
 * ⭐ **[Bitwarden](https://bitwarden.com/)** / All Platforms / [Alt Client](https://github.com/AChep/keyguard-app) / [X](https://x.com/bitwarden) / [Subreddit](https://reddit.com/r/bitwarden) / [GitHub](https://github.com/bitwarden)
-* ⭐ **[Proton Pass](https://proton.me/pass)** / All Platforms
+* ⭐ **[Proton Pass](https://proton.me/pass)** / All Platforms / [X](https://x.com/proton_pass) / [Subreddit](https://www.reddit.com/r/ProtonPass) / [GitHub](https://github.com/protonpass)
 * ⭐ **[KeePass](https://keepass.info/)** / [Plugins](https://keepass.info/plugins.html) / [Resources](https://github.com/lgg/awesome-keepass) / [3rd-party Extension](https://tusk.subdavis.com/) / Windows
-* ⭐ **[KeePassDX](https://www.keepassdx.com/)** or [Keepass2Android](https://github.com/PhilippC/keepass2android) - Keepass Clients / Android
-* ⭐ **[KeePassium](https://keepassium.com/)** - Keepass Client / macOS, iOS
-* [AuthPass](https://authpass.app/) / All Platforms
+* ⭐ **[KeePassDX](https://www.keepassdx.com/)** / [GitHub](https://github.com/Kunzisoft/KeePassDX) or [Keepass2Android](https://github.com/PhilippC/keepass2android) - Keepass Clients / Android
+* ⭐ **[KeePassium](https://keepassium.com/)** - Keepass Client / macOS, iOS / [Subreddit](https://www.reddit.com/r/KeePassium/) / [GitHub](https://github.com/keepassium/KeePassium)
+* [AuthPass](https://authpass.app/) / All Platforms / [Discord](https://discord.gg/Nuraxmc) / [GitHub](https://github.com/authpass/authpass)
 * [VaultWarden](https://github.com/dani-garcia/vaultwarden) - Self-Hosted
-* [LessPass](https://lesspass.com/) / Stateless Password Manager / Android, iOS, Web
+* [LessPass](https://lesspass.com/) / Stateless Password Manager / Android, iOS, Web / [GitHub](https://github.com/lesspass/lesspass)
 * [KeeWeb](https://keeweb.info/) / Windows, macOS, Linux, Web / [GitHub](https://github.com/keeweb/keeweb)
 * [Keypass](https://github.com/yogeshpaliyal/KeyPass) / Android
-* [Strongbox](https://strongboxsafe.com/) / macOS, iOS
+* [Strongbox](https://strongboxsafe.com/) / macOS, iOS / [GItHub](https://github.com/strongbox-password-safe/strongbox)
 * [Seahorse](https://gitlab.gnome.org/GNOME/seahorse) - GNOME Password Manager / Linux
 * [gopass](https://www.gopass.pw/) - CLI Password Manager / Linux / [GitHub](https://github.com/gopasspw/gopass)
 
@@ -143,6 +143,7 @@
 * [⁠Curium](https://curium.design/) - Generator / Customizable / Windows, macOS, Linux, Android / [GitHub](https://github.com/nylxar/curium)
 * [⁠Ente QR](https://qr.ente.com/) - Generator / Customizable
 * [⁠Just The QR Code](https://justthefuckingqrco.de/) - Generator / Customizable
+* [⁠Midas QR](https://midasqr.is-local.org/) - Generator / Customizable / [Github](https://github.com/Jimm144/midas-qr)
 * [QArt Coder](https://research.swtch.com/qr/draw/) - Generator / Customizable
 * [QRcodly](https://www.qrcodly.de/) - Generator / Customizable
 * [QRCode Monkey](https://www.qrcode-monkey.com/) - Generator / Customizable
@@ -344,6 +345,7 @@
 
 ## ▷ Redirect Bypass
 
+* 🌐 **[Bypass Site Index / Status](https://rentry.co/FMHYB64#abs)**
 * ⭐ **[Bypass All Shortlinks Debloated](https://codeberg.org/gongchandang49/bypass-all-shortlinks-debloated)** - Bypass Link Shorteners / [Userscript](https://codeberg.org/gongchandang49/bypass-all-shortlinks-debloated/raw/branch/main/Bypass_All_Shortlinks.user.js)
 * ⭐ **[Evade](https://skipped.lol)** - Ad-Links Bypasser / [Userscript](https://skipped.lol/evade/evade.user.js) / [Discord](https://discord.gg/gM5vzY4fPW)
 * ⭐ **[Bypass.vip](https://bypass.vip/)** - Ad-Links Bypasser / [Userscript](https://github.com/bypass-vip/userscript/raw/refs/heads/main/bypass-vip.user.js) / [Discord](https://bypass.vip/discord) / [GitHub](https://github.com/bypass-vip)
@@ -483,6 +485,7 @@
 * [TempmailHub](https://tempmailhub.org/) - Gmail / 30 Mins / 1 Domain
 * [⁠Ghost Inbox (Gmail)](https://temp-gmail.ghostinbox.net/) or [⁠Ghost Inbox](https://ghostinbox.net/) - Gmail / 1 Day / 1 Day / 10 Domains
 * [YOPmail](https://yopmail.com/email-generator) - Forever / 8 Days / 100+ Domains
+* [TempMail Cloud](https://tempmail.cloud/) - Forever / Forever (w/ account) / 21 Domains
 * [Temporary-Mail](https://temporary-mail.net/) - Forever / 11 Domains
 * [48hr.email](https://48hr.email/) - Forever / 2 Days / 7 Domains
 * [NiceMail](https://mailporary.com/) - Forever / 1 Day / 3 Domains
@@ -617,7 +620,7 @@
 
 # ► Browser Tools
 
-* 🌐 **[Browser Comparisons](https://privacytests.org/)** or [Eylenburg Comparisons](https://eylenburg.github.io/browser_comparison.htm) - Compare Popular Browsers
+* 🌐 **[Browser Comparisons](https://privacytests.org/)**, **[⁠BrowserPedia](https://browserpedia.com/)**or **[Eylenburg Comparisons](https://eylenburg.github.io/browser_comparison.htm)** - Browser Comparisons / Databases
 * 🌐 **[Desktop Browser List](https://nerdyslacker.github.io/desktop-web-browsers/)** - Desktop Browser Index / [GitHub](https://github.com/nerdyslacker/desktop-web-browsers)
 * ↪️ **[Recommended Browsers](https://fmhy.net/beginners-guide#browsers)**, [2](https://rentry.org/Piracy-BG#browsers) / **[Privacy Browsers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25B7_browser_privacy)**
 * ↪️ **[Android Browsers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_browsers)**
