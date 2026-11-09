@@ -21,6 +21,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: main
+          token: ${{ secrets.SYNC_TOKEN }}
 
       - name: Fetch upstream
         run: |
@@ -59,7 +60,7 @@ jobs:
         if: steps.check.outputs.synced == 'false' && steps.merge.outputs.conflict == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SYNC_TOKEN }}
           commit-message: "sync: merge upstream/fmhy main"
           branch: auto-sync/upstream
           delete-branch: true
