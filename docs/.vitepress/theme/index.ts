@@ -41,14 +41,71 @@ import Tag from './components/Tag.vue'
 import Tooltip from './components/Tooltip.vue'
 import VideoFrame from './components/VideoFrame.vue'
 
+const removalDateFormat = new Intl.DateTimeFormat('en-US', {
+  dateStyle: 'long',
+  timeZone: 'UTC'
+})
+
+function removedDateTooltip(date: string): string {
+  const removedAt = new Date(`${date}T00:00:00Z`)
+  const now = new Date()
+  const today = Date.UTC(
+    now.getUTCFullYear(),
+    now.getUTCMonth(),
+    now.getUTCDate()
+  )
+  const days = Math.round((today - removedAt.getTime()) / 86_400_000)
+  const relative =
+    days === 0
+      ? 'Today'
+      : days > 0
+        ? `${days} day${days === 1 ? '' : 's'} ago`
+        : `In ${-days} day${days === -1 ? '' : 's'}`
+
+  return `<strong>${relative}</strong><br><time datetime="${date}">${removalDateFormat.format(removedAt)}</time>`
+}
+
 const applySeasonalBranding = () => {
-  const isJune = new Date().getMonth() === 5
+  const month = new Date().getMonth()
+  const isJune = month === 5
+  const isOctober = month === 9
+
   document.documentElement.classList.toggle('june', isJune)
+  document.documentElement.classList.toggle('halloween', isOctober)
 
   const favicon = document.querySelector<HTMLLinkElement>("link[rel='icon']")
   if (favicon) {
-    favicon.href = isJune ? '/june_icon.webp' : '/fmhy.ico'
-    favicon.type = isJune ? 'image/webp' : 'image/x-icon'
+    favicon.href = isJune
+      ? '/june_icon.webp'
+      : isOctober
+        ? '/hall.png'
+        : '/fmhy.ico'
+    favicon.type = isJune
+      ? 'image/webp'
+      : isOctober
+        ? 'image/png'
+        : 'image/x-icon'
+  }
+
+  const alternateIcon = document.querySelector<HTMLLinkElement>(
+    "link[rel='alternate icon']"
+  )
+  if (alternateIcon) {
+    alternateIcon.href = isOctober ? '/hall.png' : '/pwa_icon.png'
+  }
+
+  const appleIcon = document.querySelector<HTMLLinkElement>(
+    "link[rel='apple-touch-icon']"
+  )
+  if (appleIcon) {
+    appleIcon.href = isOctober ? '/hall.png' : '/pwa_icon.png'
+  }
+
+  const themeColor = document.querySelector<HTMLMetaElement>(
+    "meta[name='theme-color']"
+  )
+  if (themeColor) {
+    themeColor.content = isOctober ? '#EA580C' : '#7bc5e4'
   }
 }
 
@@ -65,10 +122,17 @@ export default {
     app.component('Post', Post)
     app.component('Feedback', Feedback)
     app.component('Tooltip', Tooltip)
+    app.config.globalProperties.$removedDateTooltip = removedDateTooltip
+    app.config.globalProperties.$removedDateTriggers =
+      typeof window !== 'undefined' &&
+      !window.matchMedia('(hover: hover)').matches
+        ? ['click']
+        : ['hover', 'focus']
     loadProgress(router)
 
     if (typeof window !== 'undefined') {
       applySeasonalBranding()
+      requestAnimationFrame(applySeasonalBranding)
 
       const originalBefore = router.onBeforeRouteChange
       const originalAfter = router.onAfterRouteChanged
@@ -114,6 +178,8 @@ export default {
         const hasPendingSearch = !!pendingScrollQuery.value
 
         originalAfter?.(to)
+
+        requestAnimationFrame(applySeasonalBranding)
 
         // Scroll to the exact matching text after a search-result navigation
         if (hasPendingSearch) {
