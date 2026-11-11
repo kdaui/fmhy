@@ -59,7 +59,7 @@
 * [ezyZip](https://www.ezyzip.com/) - Zip Files Online
 * [unzip-online](https://unzip-online.com/en) - Unzip Files Online
 * [Unrar online](https://unrar.online/) - Unrar Files Online
-* [WinRAR](https://www.win-rar.com/), [2](https://www.rarlab.com) - File Archiver / [Remove Popups](https://rentry.co/FMHYB64#winrar) / [Update (Important)](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/winrar.md)
+* [WinRAR](https://www.win-rar.com/), [2](https://www.rarlab.com) - File Archiver / [Remove Popups](https://rentry.co/FMHYB64#winrar) / [Update (Important)](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/winrar-critical.md)
 * [ouch](https://crates.io/crates/ouch) - Archiving / Compression CLI / [GitHub](https://github.com/ouch-org/ouch)
 * [UPX](https://upx.github.io/) - Executable File Compressor / [GitHub](https://github.com/upx/upx)
 
@@ -67,7 +67,7 @@
 
 ## ▷ File Converters
 
-* ⭐ **[File Converter](https://file-converter.io/)** - Offline / Convert & Compress Files / Windows / [GitHub](https://github.com/Tichau/FileConverter) / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/file-converter-note.md)
+* ⭐ **[File Converter](https://file-converter.io/)** - Offline / Convert & Compress Files / Windows / [GitHub](https://github.com/Tichau/FileConverter) / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/file-converter-critical.md)
 * ⭐ **[VERT](https://vert.sh/)** - Offline / Some Video Conversions Require Servers / Web / [Discord](https://discord.gg/8XXZ7TFFrK) / [GitHub](https://github.com/VERT-sh/VERT)
 * ⭐ **[Convert to it!](https://p2r3.github.io/convert/)** - Offline / File Converter / Web / [GitHub](https://github.com/p2r3/convert)
 * ⭐ **[Aconvert](https://www.aconvert.com/)** - Online / Various Converters / 40MB / Web
@@ -236,7 +236,7 @@
 * ⭐ **[⁠ihatepdf](https://www.ihatepdf.cv/)** - Client-Side
 * ⭐ **[BentoPDF](https://bentopdf.com/)** or [File PDF](https://filepdf.net/) - Client-Side / [GitHub](https://github.com/alam00000/bentopdf)
 * [BreezePDF](https://breezepdf.com/) - Client-Side
-* [⁠PDFKing](https://pdfking.app/) - Client-Side / [Discord](https://discord.gg/DCE9Y4Nqv)
+* [⁠PDFKing](https://pdfking.app/) - Client-Side
 * [PDFCraft](https://pdfcraft.devtoolcafe.com/) - Client-Side / [GitHub](https://github.com/PDFCraftTool/pdfcraft)
 * [⁠itinypdf](https://itinypdf.com/) - Client-Side
 * [PDFWix](https://pdfwix.com/), [2](https://pdfwix.github.io/pdfwix/) - Client-Side
@@ -256,7 +256,7 @@
 * ⭐ **[Stirling](https://stirling.com/)** / Windows, macOS, Linux / [GitHub](https://github.com/Stirling-Tools/Stirling-PDF)
 * ⭐ **[PDF24](https://www.pdf24.org/)** / Web-Based / Windows
 * [⁠PDF4QT](https://jakubmelka.github.io/) / Windows, Linux / [GitHub](https://github.com/JakubMelka/PDF4QT)
-* [Foxit](https://www.foxit.com/pdf-reader/) / All Platforms / [Features](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25BA_software_sites) (search) / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/foxit-warning.md)
+* [Foxit](https://www.foxit.com/pdf-reader/) / All Platforms / [Features](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25BA_software_sites) (search) / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/foxit-critical.md)
 * [xPDFReader](https://www.xpdfreader.com/) / Windows, macOS, Linux
 * [PDF Arranger](https://github.com/pdfarranger/pdfarranger) / Windows, Linux
 
@@ -300,7 +300,7 @@
 * IPFS Tools - [Resources](https://awesome.ipfs.tech/), [2](https://github.com/ipfs/awesome-ipfs) / [Extension](https://github.com/ipfs/ipfs-companion) / [Desktop](https://github.com/ipfs/ipfs-desktop) / [IPFS Cluster](https://ipfscluster.io/)
 * [aQRoss](https://aqross.app/) / Web or [qrcp](https://qrcp.sh/) / Share Files Using QR Codes / Windows, macOS, Linux / [GitHub](https://github.com/claudiodangelis/qrcp)
 * [OnionShare](https://onionshare.org/) - Share Files Over Tor Network / Windows, macOS, Linux, Android, iOS / [GitHub](https://github.com/onionshare/onionshare)
-* [FileZilla](https://filezilla-project.org/) - FTP Client / Windows, macOS, Linux / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/filezilla-warning.md)
+* [FileZilla](https://filezilla-project.org/) - FTP Client / Windows, macOS, Linux / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/filezilla-critical.md)
 * [⁠Sendme](https://www.iroh.computer/sendme) / [GitHub](https://github.com/n0-computer/sendme) or [DashBeam](https://dashbeam.net/) / [GitHub](https://github.com/tonyantony300/dashbeam) - File Transfer CLIs
 * [termscp](https://termscp.rs/) - File Transfer TUI / [GitHub](https://github.com/veeso/termscp)
 * [WinSCP](https://winscp.net/eng/index.php) - FTP Client / Windows
@@ -365,7 +365,7 @@
 * [hostb](https://hostb.org/) - Unlimited / 30 Days After Last Download / [Source Code](https://r-w-x.org/r/hostb.git)
 * [MixDrop](https://mixdrop.ag/) - Unlimited / 60 Days / Requires Signup
 * [1fichier.com](https://1fichier.com/) - 300GB / 15 Days (30 Days w/ Account)
-* [Filebin](https://filebin.net/) - Unlimited / 6 Days / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/filebin-warning.md)
+* [Filebin](https://filebin.net/) - Unlimited / 6 Days / [Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/filebin-critical.md)
 * [file.kiwi](https://file.kiwi/) - Unlimited / 90 Hours / [File Expiry](https://file.kiwi/price)
 * [FileFast](https://file.fast/) - 5GB / Unlimited / [Discord](https://discord.com/invite/PnHjVGfjQa)
 * [⁠UpZur](https://upzur.com/) - 5GB / 1.95TB / 120 Days After Last Download / Requires Signup
@@ -397,6 +397,7 @@
 * [ufile.io](https://ufile.io/) - 5GB / 30 Days
 * [Internxt Send](https://send.internxt.com/) - 5GB / 15 Days
 * [⁠SendGB](https://www.sendgb.com/) - 5GB / 7 Days
+* [Send](https://send.vis.ee/) - 2.5GB / 3 Days / 30 Downloads / [CLI](https://github.com/timvisee/ffsend) / [Instances](https://gitlab.com/timvisee/send-instances)
 * [⁠JuiceBox](https://box.juicey.dev/) - 15GB / 14 Days
 * [⁠Dosya Upload](http://www.dosyaupload.com/) - 4GB / 60 Days
 * [pCloud Transfer](https://transfer.pcloud.com/) or [Tresorit Send](https://send.tresorit.com/) - 5GB / 7 Days / Requires Email
@@ -404,7 +405,6 @@
 * [patchy.moe](https://patchy.moe/), [2](https://ayaya.beauty/) - 4GB / 14 Days / [Codeberg](https://codeberg.org/Fijxu/patchy)
 * [⁠Mega4Upload](https://mega4upload.net/) - 3GB / 183GB / 150 Days After Last Download
 * [Workupload](https://workupload.com/) - 2GB / 90 Days
-* [Send](https://send.vis.ee/) - 2.5GB / 3 Days / 10 Downloads / [CLI](https://github.com/timvisee/ffsend) / [Instances](https://gitlab.com/timvisee/send-instances)
 * [JUMBOmail](https://www.jumbomail.me/) - 2GB / 7 Days / Requires Email
 * [TransferSize](https://www.transfersize.com/) - 50GB / 7 Days
 * [4d2.sh](https://4d2.sh/) - 1GB / 730 Days Max
@@ -449,7 +449,7 @@
 * [Blomp](https://www.blomp.com/) - 40GB / 1 Month / ~$1 for 10TB+
 * [Backblaze B2](https://www.backblaze.com/cloud-storage/) - 10GB / ~$6
 * [Cloudflare R2](https://www.cloudflare.com/products/r2/) - 10GB / Forever / ~$15
-* [FileLu](https://filelu.com/) - 1GB / Forever / ~$3.13 for 40TB / **[Expiry Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/filelu-warning.md)**
+* [FileLu](https://filelu.com/) - 1GB / Forever / ~$3.13 for 40TB / **[Expiry Warning](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/filelu-critical.md)**
 * [⁠Tresorit](https://tresorit.com/) - 3GB / Forever / 500 Per File / ~$6.94 (4TB Personal Pro)
 * [Fix-OneDrive-Zip](https://github.com/pmqs/Fix-OneDrive-Zip) - Fix OneDrive Zip Files >4GB
 
