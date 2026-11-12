@@ -423,7 +423,7 @@
 * 🌐 **[⁠JustIndex](https://justindex.cc/)** - Manga Site Index / [Mirrors](https://projectjust.xyz/) / [Subreddit](https://www.reddit.com/r/ProjectJust) / [Discord](https://discord.gg/P3yqksmGun)
 * 🌐 **[Rawmangaz](https://clarasguide.valeena.workers.dev/Guides/rawmangaz/)** - List of Raw Manga Sites
 * ⭐ **[Kagane](https://kagane.org/)** / [Discord](https://discord.gg/kaganeto)
-* ⭐ **[MangaDot](https://mangadot.net/)** / [Matrix](https://fuckdm.ca/)
+* ⭐ **[MangaDot](https://mangadot.net/)**, [2](https://manga.st/), [3](https://mangadot.st/) / [Matrix](https://fuckdm.ca/)
 * ⭐ **[Weeb Central](https://weebcentral.com/)**
 * ⭐ **[Atsumaru](https://atsu.moe/)** / [Discord](https://discord.gg/Tj4QmEF4uV)
 * ⭐ **[Toonkotsu](https://toonkotsu.com/)**
@@ -434,7 +434,7 @@
 * [MangaFire](https://mangafire.to/) / [Subreddit](https://www.reddit.com/r/Mangafire/) / [Discord](https://discord.com/invite/KRQQKzQ6CS)
 * [MangaNato](https://www.manganato.gg/), [2](https://www.nelomanga.net/), [3](https://www.mangakakalot.gg), [4](https://www.natomanga.com/) / [Discord](https://discord.gg/Qhz84GGvE9)
 * [Nyora](https://web.nyora.xyz/) - Multi-Site Manga Aggregator
-* [⁠Tobari](https://tobari.moe/) - Multi-Site Manga Aggregator / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/⁠tobari.md)
+* [⁠Tobari](https://tobari.moe/) - Multi-Site Manga Aggregator / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/tobari.md)
 * [⁠bManga](https://bmanga.dedyn.io/) - Multi-Site Manga Aggregator
 * [⁠YumeZone](https://yumezone.live/manga/) - Multi-Site Manga Aggregator
 * [Cubari Proxy](https://proxy.cubari.moe/) - Multi-Site Manga Aggregator / [Discord](https://discord.com/invite/SavdUC45MS)
