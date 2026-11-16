@@ -36,6 +36,7 @@
 * [UHD Drives Flashing Guide](https://forum.makemkv.com/forum/viewtopic.php?f=16&t=19634) / Web
 * [Redump](https://redump.info/) - Disc Preservation Info Project / Web
 * [VHS Decode](https://github.com/oyvindln/vhs-decode) - VHS Decoder / Windows, macOS, Linux
+* [⁠Disc Image Studio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/blob/main/README.en.md) - Burn Visible Images onto Optical Discs
 
 ***
 
@@ -293,12 +294,12 @@
 * ⭐ **[Jellyfin](https://jellyfin.org/)** - Media Server / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25B7_jellyfin_tools) / [Matrix](https://matrix.to/#/#jellyfinorg:matrix.org) / [Discord](https://discord.gg/zHBxVSXdBV) / [GitHub](https://github.com/jellyfin/jellyfin)
 * ⭐ **[Kodi](https://kodi.tv/)** or [Xbox Kodi](https://apps.microsoft.com/detail/9nblggh4t892) - Media Server / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25B7_kodi_tools)
 * [TRaSH Guides](https://trash-guides.info/) / [Discord](https://discord.com/invite/4K2kdvwzFh), [⁠Duck Guides](https://duckkota.gitlab.io/guides/) or [The Complete Guide](https://redd.it/pqsomd) - Server Setup Guides
-* [Simkl](https://simkl.com/), [MDBList](https://mdblist.com/) or [Trakt](https://app.trakt.tv/) - Media Trackers / List Creators
+* [Simkl](https://simkl.com/), [MDBList](https://mdblist.com/) or [Trakt](https://og.trakt.tv/) / [2](https://app.trakt.tv) - Media Trackers / List Creators
 * [Prowlarr](https://prowlarr.com/) / [GitHub](https://github.com/Prowlarr/Prowlarr), [FlexGet](https://flexget.com/) or [r/softwarr](https://reddit.com/r/softwarr) - Autodownload Tools
 * [Reiverr](https://github.com/aleksilassila/reiverr) - Media Server Manager
 * [HTPC Download Box](https://github.com/sebgl/htpc-download-box) - Media Server Automation
 * [Seanime](https://seanime.app/) - Anime Server / [Discord](https://discord.com/invite/3AuhRGqUqh)
-* [swizzin](https://swizzin.ltd/) or [⁠YAMS](https://yams.media/) / [Discord](https://discord.com/invite/Gwae3tNMST) - Media Server Install Script / Debain + Ubuntu
+* [swizzin](https://swizzin.ltd/) or [⁠YAMS](https://yams.media/) / [Discord](https://discord.com/invite/Gwae3tNMST) - Media Server Install Script / Debian + Ubuntu
 * [DMS](https://github.com/anacrolix/dms) - Media Server
 * [Emby](https://emby.media/) - Media Server
 * [Universal Media Server](https://www.universalmediaserver.com/) - Media Server
@@ -407,7 +408,7 @@
 
 * ⭐ **[r/VideoEditing](https://www.reddit.com/r/VideoEditing/)** - Video Editing Subreddit / [Wiki](https://www.reddit.com/r/VideoEditing/wiki/index/)
 * ⭐ **[Eyecandy](https://eyecannndy.com/)** - Visual Technique Examples / [Discord](https://discord.com/invite/WRyrPkWEzT)
-* ⭐ **[Waifu2x GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)**, [⁠TheAnimeScripter](https://github.com/NevermindNilas/TheAnimeScripter), [Video2x](https://github.com/k4yt3x/video2x), [Warlock-Studio](https://github.com/Ivan-Ayub97/Warlock-Studio), [Lossless Scaling](https://fmhy.net/gaming#download-games) (search) or [Dandere2x](https://github.com/akai-katto/dandere2x) - Video Upscaling
+* ⭐ **[Waifu2x GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)**, [⁠TheAnimeScripter](https://github.com/NevermindNilas/TheAnimeScripter), [Video2x](https://github.com/k4yt3x/video2x), [Warlock-Studio](https://github.com/Ivan-Ayub97/Warlock-Studio), [Lossless Scaling](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/games/#wiki_.25BA_download_games) (search) or [Dandere2x](https://github.com/akai-katto/dandere2x) - Video Upscaling
 * [Codecs and Containers](https://www.reddit.com/r/VideoEditing/wiki/codecsandcontainers) - Info on Codecs & Containers
 * [VideoHelp Forum](https://forum.videohelp.com/forums/2-Video) - Video Editing Forums
 
