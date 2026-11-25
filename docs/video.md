@@ -12,7 +12,6 @@
 
 ***
 
-* 🌟 **[Vivarium](https://vivarium.su/)** - 4K / Dual Audio / External Subs / Ad-Toggle / [Discord](https://discord.gg/pxVxUdFxj5)
 * 🌟 **[ArrowTV](https://arrowtv.net/)**, [2](https://neonflix.st/) or [Cinezo](https://www.cinezo.st/), [2](https://www.flikhub.net/) - 4K / Dual Audio / External Subs / Ad-Toggle
 * 🌟 **[Movy](https://www.movy.sx/)** - 4K / Dual Audio / External Subs / Ad-Toggle
 * 🌟 **[Cinejoy](https://cinejoy.pk/)** - 4K / Dual Audio / External Subs / Ad-Toggle
@@ -22,7 +21,7 @@
 * 🌟 **[Atlantic](https://atlantic.bz/)** or [fprime](https://fprime.at/) - 4K / Dual Audio / External Subs / Ad-Toggle / [Discord](https://discord.com/invite/ekUMJ7WVnW)
 * 🌟 **[ShuttleTV](https://shuttletv.pk/)**, [2](https://shuttletv.me/) - 4K / Dual Audio / External Subs / Ad-Toggle / [Discord](https://discord.gg/wsPmVB7ZJZ)
 * 🌟 **[FlyStream](https://flystream.net/)** - 4K / Dual Audio / External Subs / Ad-Toggle / [Subreddit](https://www.reddit.com/r/FlyStream/) / [Discord](https://discord.gg/flystream)
-* ⭐ **[Spacedom](https://spacedom.live/)** - 4K / Dual Audio / Popup + Redirect Free / [Discord](https://discord.com/invite/6NU9thcPYs)
+* 🌟 **[Vivarium](https://vivarium.su/)** - 4K / Dual Audio / External Subs / Ad-Toggle / [Discord](https://discord.gg/pxVxUdFxj5)
 * ⭐ **[Chillflix](https://chillflix.lol/)**, [Toflix](https://toflix.co/) or [Vuflix](https://vuflix.co/) - 4K / Dual Audio / External Subs / Ad-Toggle / [Discord](https://discord.gg/6r5KTZgqXV)
 * ⭐ **[Way2Movies](https://beta.way2movies.live/)**, [2](https://way2movies.live/) - 4K / Dual Audio / External Subs / Ad-Toggle / [Telegram](https://t.me/Way2MoviesFun) / [Discord](https://discord.gg/mH4zsaAmv7)
 * ⭐ **[moanatv.](https://lfmx.app/)** - 4K / Dual Audio / External Subs / Ad-Toggle / [Discord](https://discord.gg/7CBgYwN82F)
@@ -35,6 +34,7 @@
 * ⭐ **[CineLite](https://cinelite.xyz/)** - 4K / Dual Audio / Popup + Redirect Free
 * ⭐ **[Ghostflix](https://ghostflix.st/)**, [2](https://redflix.one/), [3](https://redflix.club/) - 1080p / Dual Audio / External Subs / Ad-Toggle / [Status](https://redflix.fans/) / [Invite](https://discord.gg/wp5SkSWHW5) / [Telegram](https://t.me/multichannelofficial)
 * ⭐ **[dulo](https://dulo.mov/)** - 4K / External Subs / Ad-Toggle / [Discord](https://discord.gg/kSsqjhE2Sp)
+* ⭐ **[Spacedom](https://spacedom.live/)** - 4K / Dual Audio / Popup + Redirect Free / [Discord](https://discord.com/invite/6NU9thcPYs)
 * [BingeBang](https://bingebang.st/) - 4K / External Subs / Popup + Redirect Free / [Status](https://bingebang.club/) / [Discord](https://discord.com/invite/v3EmsANYNM)
 * [Lightflix](https://lightflix.app/) or [Afterdusk](https://afterdusk.app/) - 4K / Dual Audio / External Subs / Ad-Toggle
 * [M-Zone](https://m-zone.cc/), [2](https://m-zone.org/) - 1080p / Dual Audio / External Subs / Popup + Redirect Free / [Discord](https://discord.com/invite/PFvCNcZCQC)
